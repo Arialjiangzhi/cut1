@@ -100,15 +100,20 @@ table.two {
 	margin-top:1px;
 }
 table.two td {
-	height:32px;
-	background:url(images/delivery/images/menu_bj.jpg) repeat;
 	vertical-align:middle;
 }
 table.two td a {
+	height:32px;
 	text-decoration:none;
 	font-size:14px;
+	background:url(images/delivery/images/menu_bj.jpg) no-repeat;
 	color:#FFF;
 	font-family:"微软雅黑", Gadget, sans-serif;
+	display: block;
+	padding-top: 6px;
+}
+table.two td a:hover {
+	background:url(images/delivery/images/menu_bjon.jpg) no-repeat;
 }
 .image {
 	clear:both;
@@ -129,6 +134,7 @@ table.two td a {
 	color:#666;
 	margin-top:4px;
 	margin-right:6px;
+	display: block;
 }
 .sections {
 	width:960px;
@@ -234,6 +240,7 @@ li a {
 	color:#FFF;
 	font-family:"宋体", Helvetica, sans-serif;
 	font-size:13px;
+	display: block;
 }
 table.tree {
 	clear:both;
@@ -292,6 +299,7 @@ table.tree {
 	text-decoration:none;
 	font-size:12px;
 	color:#999;
+	display: block;
 }
 .sectitle {
 	font-weight:bold;
